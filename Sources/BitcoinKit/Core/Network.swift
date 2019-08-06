@@ -117,7 +117,8 @@ public class BTCTestnet: Testnet {
 
 public class BCHMainnet: Mainnet {
     public override var scheme: String {
-        return "bitcoincash"
+//        return "bitcoincash"
+        return "classzz"
     }
     override var magic: UInt32 {
         return 0xe3e1f3e8
